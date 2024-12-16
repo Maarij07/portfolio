@@ -1,4 +1,6 @@
+import Footer from './components/Footer';
 import Home from './components/Home';
+import Navbar from './components/Navbar';
 import Screen2 from './components/Screen2';
 import Screen3 from './components/Screen3';
 import Screen4 from './components/Screen4';
@@ -10,7 +12,8 @@ import Screen8 from './components/Screen8';
 function App() {
   return (
     <div className="overflow-x-hidden">
-      <Home/>
+      <Navbar/>
+      <Home />
       <Screen2/>
       <Screen3/>
       <Screen4/>
@@ -18,6 +21,7 @@ function App() {
       <Screen6/>
       <Screen7/>
       <Screen8/>
+      <Footer/>
     </div>
   );
 }

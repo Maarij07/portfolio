@@ -4,7 +4,7 @@ import img from '../assets/home-1.png';
 const Home = () => {
   return (
     <div
-      className="min-h-screen w-full bg-cover bg-center flex flex-col items-center justify-center text-white"
+      className="min-h-screen w-full bg-cover mt-[20vh] bg-center flex flex-col items-center justify-center text-white"
       style={{
         backgroundImage: `url(${img})`,
       }}
