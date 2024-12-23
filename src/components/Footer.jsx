@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import { FaFacebook, FaTwitter, FaGoogle } from 'react-icons/fa';
 
 const Footer = () => {
+  const [newsLetter,setNewsLetter]=useState('');
   return (
     <div className="bg-[#343434] text-white py-10">
       <div className="container mx-auto px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -77,11 +78,13 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Newsletter</h3>
           <p className="text-sm mb-4">Sign up for the latest updates</p>
-          <div className="flex">
+          <div className="flex text-black">
             <input
               type="email"
-              placeholder="Enter your email"
-              className="p-2 rounded-l-lg w-full"
+              placeholder="Enter your email"  
+              className="p-2 rounded-l-lg w-full "
+              value={newsLetter}
+              onChange={(e)=>setNewsLetter(e.target.value)}
             />
             <button className="bg-red-600 text-white p-2 rounded-r-lg">
               <span>→</span>

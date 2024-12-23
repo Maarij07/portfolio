@@ -8,19 +8,21 @@ import Screen5 from './components/Screen5';
 import Screen6 from './components/Screen6';
 import Screen7 from './components/Screen7';
 import Screen8 from './components/Screen8';
+import Search from './components/Search';
 
 function App() {
   return (
     <div className="overflow-x-hidden">
       <Navbar/>
-      <Home />
+      {/* <Home />
       <Screen2/>
       <Screen3/>
       <Screen4/>
       <Screen5/>
       <Screen6/>
       <Screen7/>
-      <Screen8/>
+      <Screen8/> */}
+      <Search/>
       <Footer/>
     </div>
   );
