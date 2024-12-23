@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../assets/logo.png';
 import { FaFacebook, FaTwitter, FaGoogle } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -62,12 +63,13 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-8 py-2 bg-[#343434]">
         {/* Left Side - Navigation Links */}
         <div className="flex space-x-6">
-          <a href="#" className="text-white hover:text-red-600">Home</a>
-          <a href="#" className="text-white hover:text-red-600">About Us</a>
-          <a href="#" className="text-white hover:text-red-600">Services</a>
-          <a href="#" className="text-white hover:text-red-600">Page</a>
-          <a href="#" className="text-white hover:text-red-600">Blog</a>
-          <a href="#" className="text-white hover:text-red-600">Contact</a>
+          <Link to="/" className="text-white hover:text-red-600">Home</Link>
+          <Link to="/" className="text-white hover:text-red-600">About Us</Link>
+          <Link to="/" className="text-white hover:text-red-600">Services</Link>
+          <Link to="/" className="text-white hover:text-red-600">Page</Link>
+          <Link to="/" className="text-white hover:text-red-600">Blog</Link>
+          <Link to="/" className="text-white hover:text-red-600">Contact</Link>
+          <Link to="/search" className="text-white hover:text-red-600">Search</Link>
         </div>
 
         {/* Right Side - Social Icons */}
