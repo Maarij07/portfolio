@@ -1,0 +1,132 @@
+[
+    {
+      "id": "project-1",
+      "title": "Aurora Streaming Platform",
+      "description": "A modern video streaming platform with a sleek interface, built with Next.js and Firebase. Features include user authentication, personalized recommendations, and adaptive streaming.",
+      "category": ["web", "ui"],
+      "technologies": ["React", "Next.js", "Firebase", "Tailwind CSS", "Framer Motion"],
+      "images": ["/projects/aurora-1.jpg", "/projects/aurora-2.jpg", "/projects/aurora-3.jpg"],
+      "links": {
+        "live": "https://aurora-stream.example.com",
+        "github": "https://github.com/yourusername/aurora-stream"
+      },
+      "featured": true
+    },
+    {
+      "id": "project-2",
+      "title": "Nebula Mobile Wallet",
+      "description": "A secure and intuitive mobile wallet app built with React Native. Includes biometric authentication, transaction history, and real-time currency conversion.",
+      "category": ["mobile"],
+      "technologies": ["React Native", "Redux", "Firebase Auth", "React Navigation"],
+      "images": ["/projects/nebula-1.jpg", "/projects/nebula-2.jpg"],
+      "links": {
+        "appStore": "https://apps.apple.com/us/app/nebula-wallet",
+        "playStore": "https://play.google.com/store/apps/details?id=com.nebulawallet"
+      },
+      "featured": true
+    },
+    {
+      "id": "project-3",
+      "title": "Quantum Dashboard",
+      "description": "An admin dashboard with advanced data visualization, dark theme, and responsive design. Built with React and shadcn/ui components.",
+      "category": ["web", "ui"],
+      "technologies": ["React", "TypeScript", "Chart.js", "shadcn/ui", "Tailwind CSS"],
+      "images": ["/projects/quantum-1.jpg"],
+      "links": {
+        "live": "https://quantum-dashboard.example.com",
+        "github": "https://github.com/yourusername/quantum-dashboard"
+      },
+      "featured": true
+    },
+    {
+      "id": "project-4",
+      "title": "Zenith Meditation App",
+      "description": "A Flutter-based meditation application with guided sessions, progress tracking, and calming visualizations.",
+      "category": ["mobile", "ui"],
+      "technologies": ["Flutter", "Dart", "Firebase", "Provider"],
+      "images": ["/projects/zenith-1.jpg", "/projects/zenith-2.jpg", "/projects/zenith-3.jpg"],
+      "links": {
+        "appStore": "https://apps.apple.com/us/app/zenith-meditation",
+        "playStore": "https://play.google.com/store/apps/details?id=com.zenithmeditation"
+      },
+      "featured": true
+    },
+    {
+      "id": "project-5",
+      "title": "Spectrum Design System",
+      "description": "A comprehensive design system with reusable components and consistent styling guidelines for large-scale applications.",
+      "category": ["web", "ui"],
+      "technologies": ["React", "Storybook", "Styled Components", "Figma"],
+      "images": ["/projects/spectrum-1.jpg", "/projects/spectrum-2.jpg"],
+      "links": {
+        "live": "https://spectrum-design.example.com",
+        "github": "https://github.com/yourusername/spectrum-design"
+      },
+      "featured": false
+    },
+    {
+      "id": "project-6",
+      "title": "Axis E-commerce Platform",
+      "description": "A full-featured e-commerce platform with product catalog, user accounts, cart and checkout functionality.",
+      "category": ["web"],
+      "technologies": ["Next.js", "MongoDB", "Stripe", "AWS S3", "Tailwind CSS"],
+      "images": ["/projects/axis-1.jpg"],
+      "links": {
+        "live": "https://axis-shop.example.com",
+        "github": "https://github.com/yourusername/axis-ecommerce"
+      },
+      "featured": true
+    },
+    {
+      "id": "project-7",
+      "title": "Orion Task Manager",
+      "description": "A minimalist task management app with drag-and-drop functionality, reminders, and team collaboration features.",
+      "category": ["web", "mobile"],
+      "technologies": ["React", "React Native", "Redux", "Firebase", "Express"],
+      "images": ["/projects/orion-1.jpg", "/projects/orion-2.jpg"],
+      "links": {
+        "live": "https://orion-tasks.example.com",
+        "github": "https://github.com/yourusername/orion-tasks",
+        "appStore": "https://apps.apple.com/us/app/orion-tasks"
+      },
+      "featured": false
+    },
+    {
+      "id": "project-8",
+      "title": "Prism Analytics Dashboard",
+      "description": "A data visualization tool with customizable widgets, real-time updates, and export functionality.",
+      "category": ["web"],
+      "technologies": ["React", "D3.js", "Node.js", "WebSockets", "PostgreSQL"],
+      "images": ["/projects/prism-1.jpg"],
+      "links": {
+        "live": "https://prism-analytics.example.com"
+      },
+      "featured": false
+    },
+    {
+      "id": "project-9",
+      "title": "Echo Music Player",
+      "description": "A sleek music player app with playlist management, equalizer, and offline listening capabilities.",
+      "category": ["mobile"],
+      "technologies": ["React Native", "Redux", "Expo", "React Native Track Player"],
+      "images": ["/projects/echo-1.jpg", "/projects/echo-2.jpg"],
+      "links": {
+        "appStore": "https://apps.apple.com/us/app/echo-player",
+        "playStore": "https://play.google.com/store/apps/details?id=com.echoplayer"
+      },
+      "featured": false
+    },
+    {
+      "id": "project-10",
+      "title": "Nova Weather App",
+      "description": "A beautiful weather application with animated visualizations, forecasts, and location-based weather alerts.",
+      "category": ["web", "mobile", "ui"],
+      "technologies": ["Flutter", "Dart", "OpenWeatherMap API", "Lottie Animations"],
+      "images": ["/projects/nova-1.jpg", "/projects/nova-2.jpg"],
+      "links": {
+        "appStore": "https://apps.apple.com/us/app/nova-weather",
+        "playStore": "https://play.google.com/store/apps/details?id=com.novaweather"
+      },
+      "featured": true
+    }
+  ]
